@@ -14,10 +14,10 @@ I followed this [excellent tutorial](https://www.youtube.com/watch?v=L8ypSXwyBds
 
 After getting the base agent working, I experimented with various parameters to improve training:
 
-- 🔄 **Extended Exploration Phase**  
+- **Extended Exploration Phase**  
   Increased epsilon decay period from 80 → **400 episodes**, giving the agent more time to explore before settling into greedy behavior.
 
-- 🧠 **Improved Learning Capacity**
+- **Improved Learning Capacity**
   - **Max memory** (replay buffer) increased to allow the agent to remember more previous states
   - **Batch size** increased to speed up convergence during training
 
@@ -31,3 +31,8 @@ These tweaks led to **better and more consistent high scores**, showing clearer 
 - Neural network design for game state evaluation
 - How modifying training parameters affects learning dynamics
 - Debugging and tuning agent performance in a dynamic environment
+
+# Next Steps:
+
+I will be recording a showcase of the project on Loom soon showing the difference that the tweaks i made provided and uploading it
+here.
